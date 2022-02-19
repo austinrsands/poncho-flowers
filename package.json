@@ -1,0 +1,17 @@
+{
+  "name": "poncho-flowers",
+  "version": "1.0.0",
+  "description": "an app for generating flowers",
+  "main": "index.js",
+  "author": "Austin Sands <austinrsands@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.3.2",
+    "rimraf": "^3.0.2"
+  },
+  "scripts": {
+    "start": "parcel serve index.html --open --cache-dir cache",
+    "build": "parcel build index.html --dist-dir dist",
+    "clean": "rimraf cache dist"
+  }
+}
